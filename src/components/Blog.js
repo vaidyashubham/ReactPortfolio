@@ -1,5 +1,5 @@
 import React from "react"
-// import { Link } from "react-router-dom"
+import Zoom from 'react-reveal/Zoom';
 
 const Blog = ({ id, title, thumbnail, pubDate, categories, link, content }) => {
   function cleanTitle(checkTitle) {
@@ -28,19 +28,21 @@ const Blog = ({ id, title, thumbnail, pubDate, categories, link, content }) => {
   }
 
   return (
-    <a href={`${link}`} key={title} className="blog">
-      <article className="">
-        <img src={`${thumbnail}`} className="blog-img" alt={truncateText(cleanTitle(title), 0, 60)}></img>
-        <div className="blog-card">
-          <h4>{truncateText(cleanTitle(title), 0, 60)}</h4>
-          <p className="blog-text">{truncateText(toText(content), 48, 300) + "..."}</p>
-          <div className="blog-footer">
-            <span>{categories[1]}</span>
-            <p>{convertDate(pubDate)}</p>
+    <Zoom>
+      <a href={`${link}`} key={title} className="blog">
+        <article className="">
+          <img src={`${thumbnail}`} className="blog-img" alt={truncateText(cleanTitle(title), 0, 60)}></img>
+          <div className="blog-card">
+            <h4>{truncateText(cleanTitle(title), 0, 60)}</h4>
+            <p className="blog-text">{truncateText(toText(content), 48, 300) + "..."}</p>
+            <div className="blog-footer">
+              <span>{categories[1]}</span>
+              <p>{convertDate(pubDate)}</p>
+            </div>
           </div>
-        </div>
-      </article>
-    </a>
+        </article>
+      </a>
+    </Zoom>
   )
 }
 

@@ -516,7 +516,7 @@ Hero
   }
 
   .hero-info {
-    background: var(--clr-primary-10);
+    // background: var(--clr-primary-10);
   }
 
   .hero-img {
@@ -1135,6 +1135,7 @@ About Page
     margin-bottom: 2rem;
     height: 20rem;
     /* width: inherit */
+    border-radius: 20px;
   }
 
   .about-text .section-title {
@@ -1192,6 +1193,7 @@ About Page
       grid-column: 1 / span 5;
       margin-bottom: 0;
       /* width: inherit */
+      border-radius: 20px;
     }
 
     .about-text {
@@ -2330,6 +2332,7 @@ About Page
     margin-bottom: 2rem;
     height: 20rem;
     /* width: inherit */
+    border-radius: 20px;
   }
 
   .about-text .section-title {
@@ -2387,6 +2390,7 @@ About Page
       grid-column: 1 / span 5;
       margin-bottom: 0;
       /* width: inherit */
+      border-radius: 20px;
     }
 
     .about-text {

@@ -1,4 +1,4 @@
-import profile from '../assets/hero-img.png'
+import profile from '../assets/Peach and Gray Watercolor Background Instagram Post (2).png'
 
 export default {
   title: "about me",
