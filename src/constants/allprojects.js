@@ -1,4 +1,3 @@
-// import React from "react"
 import codeonline from "../assets/codeonline.png"
 import mern from '../assets/mern.jpg'
 import covid19 from "../assets/covid19.png"

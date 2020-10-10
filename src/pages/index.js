@@ -19,7 +19,6 @@ export default ({ data }) => {
       .then(res => res.json())
       .then(data => {
         setMyBlog(data.items.slice(0, 3))
-        console.log(data.items)
       })
   }, [rss2json]);
 

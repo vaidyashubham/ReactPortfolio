@@ -7,7 +7,6 @@ import Contact from './pages/contact';
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
 import './css/Styles.scss';
 
-
 function App() {
   return (
     <div className="App">

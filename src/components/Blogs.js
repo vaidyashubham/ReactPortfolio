@@ -2,9 +2,8 @@ import React from "react"
 import Title from "./Title"
 import Blog from "./Blog"
 import { Link } from "react-router-dom"
+
 export const Blogs = ({ title, blogs, showLink }) => {
-
-
   return (
     <section className="section">
       <Title title={title} />

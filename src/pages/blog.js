@@ -13,7 +13,6 @@ const Blog = () => {
       .then(res => res.json())
       .then(data => {
         setMyBlog(data.items)
-        console.log(data.items)
       })
   }, [rss2json]);
 

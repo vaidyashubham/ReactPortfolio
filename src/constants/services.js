@@ -13,12 +13,6 @@ export default [
     title: "web design",
     text: `I value simple content structure, clean design patterns, and thoughtful interactions.`,
   },
-  // {
-  //   id: 3,
-  //   icon: <FaGraduationCap className="service-icon" />,
-  //   title: "academic projects",
-  //   text: `I offer best academic projects to the students. Projects based on emebeded system, web solutions, etc will be done in the best possible time.`,
-  // },
   {
     id: 3,
     icon: <FaSitemap className="service-icon" />,
