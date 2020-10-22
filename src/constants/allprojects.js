@@ -1,8 +1,35 @@
 import codeonline from "../assets/codeonline.png"
 import mern from '../assets/mern.jpg'
 import covid19 from "../assets/covid19.png"
+import mobileStore from "../assets/mobile-shop.png"
 
 export default [
+  {
+    id: 4,
+    imgSrc: mobileStore,
+    title: "Covid 19 Tracer",
+    description: "https://covid19tracer.netlify.app is a community-based project. It acts as a portal for the public to keep track of the latest news development about the COVID-19, alongside collecting data for further analysis. All the contents are handpicked, filtered, and curated to our best extent to the best benefit of the public. Natural Language Processing (NLP) is used to analyze trending content and identify meaningful topics over various news sources and social media platforms.",
+    projectStack: [
+      {
+        id: 1,
+        title: "ReactJS"
+      },
+      {
+        id: 2,
+        title: "Styled Components"
+      },
+      {
+        id: 3,
+        title: "Context API"
+      },
+      {
+        id: 4,
+        title: "PayPal"
+      }
+    ],
+    github: "https://github.com/vaidyashubham/E-Mobile-Store-ReactJS-",
+    url: "https://e-mobile-store.netlify.app/"
+  },
   {
     id: 1,
     imgSrc: codeonline,

@@ -19,6 +19,9 @@ const Hero = () => {
               <h3>A proud Web Designer <br />& Developer</h3>
               <DarkModeToggle />
               <Link to="/contact" className="btn">Contact Me</Link>
+              <a href={require("../assets/cv.pdf")} target="_blank" className="btn btn-cv" rel="noopener noreferrer" download="my_cv.pdf">
+                Download CV
+              </a>
               <SocialLinks />
             </div>
           </article>

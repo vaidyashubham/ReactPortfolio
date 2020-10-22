@@ -129,6 +129,10 @@ p {
   }
 }
 
+.btn-cv {
+  margin-left: 10px;
+}
+
 // Light Mode
 
 body.light-mode {
@@ -149,6 +153,8 @@ body.light-mode {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     border-radius: var(--radius);
   }
+
+
 
   .btn:hover {
     color: var(--clr-primary-1);
@@ -2105,7 +2111,7 @@ New Project
 ================
 */
 .new-projects {
-  background: #303131;
+  background: #303131 !important;
 }
 
 .new-projects h2,
