@@ -34,7 +34,7 @@ export default [
     id: 4,
     imgSrc: mobileStore,
     title: "Covid 19 Tracer",
-    description: "https://covid19tracer.netlify.app is a community-based project. It acts as a portal for the public to keep track of the latest news development about the COVID-19, alongside collecting data for further analysis. All the contents are handpicked, filtered, and curated to our best extent to the best benefit of the public. Natural Language Processing (NLP) is used to analyze trending content and identify meaningful topics over various news sources and social media platforms.",
+    description: "This is a e-commerce application where we can buy new and used mobiles. Frond-end of this e-commerce app is built using ReactJS. In this project, we also used Context API and for payment we integrated paypal.",
     projectStack: [
       {
         id: 1,
