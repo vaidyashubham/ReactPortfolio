@@ -33,7 +33,7 @@ export default [
   {
     id: 4,
     imgSrc: mobileStore,
-    title: "Covid 19 Tracer",
+    title: "Mobile-Store App",
     description: "This is a e-commerce application where we can buy new and used mobiles. Frond-end of this e-commerce app is built using ReactJS. In this project, we also used Context API and for payment we integrated paypal.",
     projectStack: [
       {
