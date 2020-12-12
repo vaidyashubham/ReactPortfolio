@@ -21,7 +21,7 @@ const data = [
   {
     id: 3,
     icon: <FaInstagramSquare className="social-icon"></FaInstagramSquare>,
-    url: "https://www.instagram.com/shubhamvaidya1191/",
+    url: "https://www.instagram.com/_shubham_vaidya/",
   },
   {
     id: 4,
